@@ -48,14 +48,14 @@ const Balance = () => {
                     <div className="card card-animate">
                     <div className="card-body">
                         <div className="d-flex align-items-center">
-                        <div className="flex-grow-1 overflow-hidden">
-                            <p className="text-uppercase fw-medium text-muted text-truncate mb-0"> Total Earnings</p>
-                        </div>
-                        <div className="flex-shrink-0">
-                            <h5 className="text-success fs-14 mb-0">
-                            <i className="ri-arrow-right-up-line fs-13 align-middle" /> +16.24 %
-                            </h5>
-                        </div>
+                            <div className="flex-grow-1 overflow-hidden">
+                                <p className="text-uppercase fw-medium text-muted text-truncate mb-0"> Total Earnings</p>
+                            </div>
+                            <div className="flex-shrink-0">
+                                <h5 className="text-success fs-14 mb-0">
+                                    <i className="ri-arrow-right-up-line fs-13 align-middle" /> +16.24 %
+                                </h5>
+                            </div>
                         </div>
                         <div className="d-flex align-items-end justify-content-between mt-4">
                         <div>

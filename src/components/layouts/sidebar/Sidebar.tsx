@@ -102,7 +102,7 @@ const Sidebar = () => {
                                                 </Link>
                                             </li>
                                             <li className="nav-item">
-                                                <Link to={'/dashboard/exchanges/withdrawls'} className="nav-link" data-key="t-calendar">
+                                                <Link to={'/dashboard/exchanges/withdrawals'} className="nav-link" data-key="t-calendar">
                                                     Retraits
                                                 </Link>
                                             </li>
@@ -136,8 +136,8 @@ const Sidebar = () => {
                                     </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link to={'/dashboard/card-manager/cards'} className="nav-link" data-key="t-calendar">
-                                        Génerer cards
+                                    <Link to={'/dashboard/card-manager/orders'} className="nav-link" data-key="t-calendar">
+                                        Commandes
                                     </Link>
                                 </li>
                                 <li className="nav-item">

@@ -13,6 +13,12 @@ import Deposits from './pages/exchange/transacts/Deposits';
 import Retraits from './pages/exchange/transacts/Retraits';
 import Transferts from './pages/exchange/transacts/Transferts';
 import Wallets from './pages/clients/Wallets';
+import Cards from './pages/card-manager/cards/Cards';
+import Serials from './pages/card-manager/serials/Serials';
+import Orders from './pages/card-manager/orders/Orders';
+import SystemConfig from './pages/settings/SystemConfig';
+import APIConfig from './pages/settings/APIConfig';
+import MethodPaymentConfig from './pages/settings/MethodPaymentConfig';
 
 
 function App() {
@@ -26,11 +32,19 @@ function App() {
 						<Route path='/dashboard/clients' element={<Client />} />
 						<Route path='/dashboard/business' element={<Business />} />
 						<Route path='/dashboard/wallets' element={<Wallets />} />
+						{/* exchange routes */}
 						<Route path='/dashboard/exchanges/tickets' element={<Tickets />} />
 						<Route path='/dashboard/exchanges/deposits' element={<Deposits />} />
-						<Route path='/dashboard/exchanges/retraits' element={<Retraits />} />
+						<Route path='/dashboard/exchanges/withdrawals' element={<Retraits />} />
 						<Route path='/dashboard/exchanges/transferts' element={<Transferts />} />
-						
+						{/* card-manager routes */}
+						<Route path='/dashboard/card-manager/' element={<Cards />} />
+						<Route path='/dashboard/card-manager/serials' element={<Serials />} />
+						<Route path='/dashboard/card-manager/orders' element={<Orders />} />
+						{/* settings routes */}
+						<Route path='/dashboard/system-config/' element={<SystemConfig />} />
+						<Route path='/dashboard/system-config/apis-accounts' element={<APIConfig />} />
+						<Route path='/dashboard/system-config/methods' element={<MethodPaymentConfig />} />
 					</Route>
 				</Routes>
 			</Router>
