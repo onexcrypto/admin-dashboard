@@ -60,7 +60,7 @@ export const data = {
             data: [210,320,450,321,300,450,250,625,435,120,500,620],
         },
     ],
-  };
+};
 
 const IncomeChart = () => {
     return (
